@@ -1,0 +1,115 @@
+# ============================================================
+# Terraform
+# ============================================================
+
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+*.plan
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration
+.terraformrc
+terraform.rc
+
+# Dependency lock file
+# Commit this if you want reproducible provider versions.
+# Ignore it only for throwaway POCs.
+# Remove the next line if this is a real project.
+#.terraform.lock.hcl
+
+# ============================================================
+# Terraform variables
+# ============================================================
+
+terraform.tfvars
+terraform.tfvars.json
+
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Keep sample files
+!terraform.tfvars.example
+!*.example.tfvars
+
+# ============================================================
+# Environment files
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# IDEs
+# ============================================================
+
+.vscode/
+.idea/
+
+*.iml
+*.ipr
+*.iws
+
+# ============================================================
+# Operating System
+# ============================================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+
+# ============================================================
+# Temporary files
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Archives
+# ============================================================
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# ============================================================
+# Test output
+# ============================================================
+
+coverage/
+reports/
+
+# ============================================================
+# Local binaries
+# ============================================================
+
+terraform
+terraform.exe
